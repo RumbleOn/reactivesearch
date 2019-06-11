@@ -1,0 +1,18 @@
+{
+	"presets": ["expo"],
+	"env": {
+		"development": {
+			"plugins": [
+				[
+					"module-resolver",
+					{
+						"alias": {
+							"@appbaseio/reactivesearch-native": "../src",
+							"@appbaseio/reactivecore": "../../reactivecore"
+						}
+					}
+				]
+			]
+		}
+	}
+}
